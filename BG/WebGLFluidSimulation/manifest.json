@@ -1,0 +1,34 @@
+{
+    "name": "WebGL Fluid Simulation",
+    "short_name": "Fluid Simulation",
+    "start_url": "/",
+    "display": "standalone",
+    "description": "Play with fluids in your browser",
+    "lang": " EN",
+    "dir": "auto",
+    "theme_color": "#000000",
+    "background_color": "#000000",
+    "orientation": "any",
+    "icons": [
+        {
+            "src": "assets/512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "assets/192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "assets/screen.png",
+            "sizes": "1920x1080",
+            "type": "image/png",
+            "description": "A screenshot of the home page"
+        }
+    ]
+}
