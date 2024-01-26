@@ -6,7 +6,7 @@ Beautiful Wallpapers for Websites
 
 ## How to use webBg API
 
-- Paste The following code in your HTML file :
+- Copy/Paste The following code in your HTML file :
 
 ```
 <script src="https://satyamv7.github.io/webBackground/index.js"></script>
