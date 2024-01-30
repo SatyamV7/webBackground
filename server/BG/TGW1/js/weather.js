@@ -83,38 +83,3 @@ function getFormatedTime(){
 
 //updates the weather each hour
 setInterval(getWeather, 1*60*60*1000);
-
-//Lively ipc: https://github.com/rocksdanister/lively/wiki/Web-Guide-IV-:-Interaction
-function livelyPropertyListener(name, val)
-{
-  switch(name) {
-  	case "uiCheck":
-	  if(val)
-	  {
-		document.getElementById('card').style.visibility = "visible";
-	  }
-	  else
-	  {
-	  	document.getElementById('card').style.visibility = "hidden";
-	  }
-  	  break;
-	case "cityInput":
-	  cityName = val;
-	  break;    
-	case "apiInput":
-	  weatherApi = val;
-	  break;
-	case "unit":
-	  if(val == 0)
-	  	units = "metric"; 
-	  else
-	  	units = "imperial"; 
-	  //last item on property, check weather now.
-	  getWeather();
-	  break;  
-	case "btnRefresh":
-	  //update weather.
-	  getWeather();
-	  break;
-	}
-}
