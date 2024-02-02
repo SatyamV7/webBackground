@@ -1,0 +1,38 @@
+html {
+    width: 100%;
+    height: 100%;
+    overflow: overlay;
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    display: block;
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    display: block;
+    background: #5e5e5e;
+    border-radius: 7.5px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    overflow: overlay;
+    margin: 0;
+    padding: 0 !important;
+}
+
+#root {
+    height: 100%;
+    padding-top: 100px;
+}
