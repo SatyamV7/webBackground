@@ -1,7 +1,7 @@
 # webBackground
 Beautiful Wallpapers for Websites
 
-> [!NOTE]
+> Note
 >  🛑 These works are not completely mine 🛑
 
 ## How to use webBg Module

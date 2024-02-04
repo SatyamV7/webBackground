@@ -1,7 +1,7 @@
 // webBg Module
 // Module developed & maintained by Satyam Verma (github.com/SatyamV7)
 
-import { baseURL } from './constants.d.ts';
+import { baseURL } from './constants.d.js';
 import { webBgData } from './webBgDB.js';
 
 function webBg(ID, zIndex) {
