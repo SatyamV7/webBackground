@@ -25,8 +25,6 @@ Beautiful Wallpapers for Websites
   * Value for **_z-index_** may vary with background to background and from person to person.
   * Default value for this property is '-1'.
 
-**Module Docs at ☞ [Docs](https://satyamv7.github.io/webBackground/docs/index.html)**
-
 **Demo/Full Preview Here ☞ [Demo](https://satyamv7.github.io/webBackground/preview/index.html)**
 
 | Name | ID | Preview |

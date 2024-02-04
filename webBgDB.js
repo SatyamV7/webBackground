@@ -52,8 +52,8 @@ const webBgData = [
         'ID': 'T25H',
         'Name': 'The 25th Hour',
         'URL': 'https://satyamv7.github.io/webBackground/BG/T25H/',
-        'Author': '', // Specifying the author is optional
-        'AuthorURL': '' // Specifying the author url is optional
+        'Author': 'Louis Coyle', // Specifying the author is optional
+        'AuthorURL': 'https://louie.co.nz/' // Specifying the author url is optional
     },
     {//8
         'ID': 'TH1',

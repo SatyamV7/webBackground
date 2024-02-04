@@ -34,5 +34,61 @@ body {
 
 #root {
     height: 100%;
-    padding-top: 100px;
+    padding: 100px 0;
+}
+
+.expand {
+    transform: scale(120);
+}
+
+#blender {
+    width: 3rem;
+    height: 3rem;
+    position: fixed;
+    border-radius: 50%;
+    right: 32px;
+    bottom: 1rem;
+    pointer-events: none;
+    background: white;
+    transition: all 1s ease;
+    mix-blend-mode: difference;
+}
+
+.module--toggle {
+    background: #100f2c;
+    width: 3rem;
+    height: 3rem;
+    position: fixed;
+    border-radius: 50%;
+    right: 32px;
+    bottom: 1rem;
+    cursor: pointer;
+    user-select: none;
+    transition: all 1s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.module--zIndex {
+    z-index: 1;
+}
+
+@media screen and (max-width: 380px) {
+    .module--zIndex {
+        opacity: 0.2;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .module--toggle {
+        right: 1rem;
+        opacity: 0.8;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .blend {
+        right: 1rem;
+    }
 }
