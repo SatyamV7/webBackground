@@ -1,7 +1,6 @@
 // webBg Module
 // Module developed & maintained by Satyam Verma (github.com/SatyamV7)
 
-import { baseURL } from './constants.js';
 import { webBgData } from './webBgDB.js';
 
 function webBg(ID, zIndex) {
@@ -17,8 +16,8 @@ function webBg(ID, zIndex) {
         zI = -1;
         console.error(`Configuration for webBackground is invalid`);
     }
+    e.src = webBgData[ID].URL;
     e.style.cssText = `display: flex;position: fixed;width: 100vw;height: 100vh;z-index: ` + zI + `;overflow: hidden;border: 0;padding: 0;`;
-    e.src = baseURL + `/server/BG/` + webBgData[ID].ID + `/index.html`;
     document.body.appendChild(e); var c = document.querySelector('#webBackgroundFrame');
     c.addEventListener('contextmenu', event => event.preventDefault());
     console.log(`webBackgroundDB:`, '\n', webBgData);
