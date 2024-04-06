@@ -5,7 +5,7 @@ import { webBgData } from './webBgDB.js';
 
 function webBg(ID, zIndex) {
     document.body.style.cssText = `margin: 0px;background: transparent;position: relative;z-index: 1;`;
-    document.body.insertAdjacentHTML = document.body, ` <!-- Code injected by webBackground -->`;
+    document.body.appendChild(document.createComment('Code injected by webBackground Module'));
     let e = document.createElement('iframe');
     e.id = 'webBackgroundFrame';
     if (isNaN(ID) == false & ID <= webBgData.length & zIndex !== null & isNaN(zIndex) == false) {
